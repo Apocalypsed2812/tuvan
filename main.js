@@ -60,7 +60,7 @@ function appendMessage(type, text) {
 
 // Gọi Groq API
 async function callGroqAPI(prompt) {
-    const API_KEY = process.env.API_KEY; 
+    const API_KEY = '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'; 
     try {
         const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
             method: "POST",
